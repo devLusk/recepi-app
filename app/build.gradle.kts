@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.recepiapp"
+    namespace = "com.example.recipeapp"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.recepiapp"
+        applicationId = "com.example.recipeapp"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

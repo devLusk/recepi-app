@@ -1,4 +1,4 @@
-package com.example.recepiapp
+package com.example.recipeapp
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
@@ -9,8 +9,7 @@ private val retrofit = Retrofit.Builder()
     .addConverterFactory(GsonConverterFactory.create())
     .build()
 
-// Essa variável será usada para acessar os métodos definidos na interface
-val recepiService = retrofit.create(ApiServices::class.java)
+val recipeService = retrofit.create(ApiServices::class.java)
 
 interface ApiServices {
     @GET("categories.php")
